@@ -67,7 +67,7 @@
 }
 
 .ex-8-img {
-    transition: filter 5s ;
+    transition: 5s ;
 }
 
 .ex-6-img:hover {
@@ -89,13 +89,46 @@
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    transition: 3s;
 }
+
+.ex-9-img:hover {
+    filter: grayscale(100%) drop-shadow(16px 16px 20px black); 
+    border-radius: 5px;
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
+
+.ex-10-icon:hover {
+    font-size: 60px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
+}
+
 .ex-11-icon {
     font-size: 60px;
 }
+
+.ex-11-icon:hover {
+    font-size: 60px;
+    animation: spin2 1s linear infinite;
+}
+
+@keyframes spin2 {
+    75% {
+        transform: rotate(315deg);
+    }
+}
+
+
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
