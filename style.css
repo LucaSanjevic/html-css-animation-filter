@@ -124,7 +124,7 @@
 
 @keyframes spin2 {
     75% {
-        transform: rotate(315deg);
+        transform: rotate(290deg);
     }
 }
 
